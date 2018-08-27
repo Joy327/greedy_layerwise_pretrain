@@ -11,6 +11,7 @@ generate_second_data.py
 model.py
 
         将两层的训练模型，整合在一起，做encoder-decoder训练。在model中对于两个模型参数的加载，需要两者分开，在声明的新图中，去做参数的恢复
+
         g1 = tf.Graph()
         with g1.as_default():
              conv_weights_layer1 = tf.get_variable("conv_weights_layer1", [3, 3, 3, 3])
