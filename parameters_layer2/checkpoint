@@ -1,0 +1,2 @@
+model_checkpoint_path: "para_layer2.ckpt"
+all_model_checkpoint_paths: "para_layer2.ckpt"
